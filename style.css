@@ -1,18 +1,16 @@
-/**@import url('https://fonts.googleapis.com/css2?family=Great+Vibes&family=Cormorant+Garamond:ital,wght@1,600&family=Dancing+Script:wght@600&family=IBM+Plex+Serif:ital@1&family=Libre+Baskerville:ital@0;1&display=swap');
-font-family: 'Cormorant Garamond', serif;
-font-family: 'Dancing Script', cursive;
-font-family: 'IBM Plex Serif', serif;
-font-family: 'Libre Baskerville', serif;
-*
-font-family: 'Alegreya', serif;
-font-family: 'Cormorant Garamond', serif;
-font-family: 'Dancing Script', cursive;
-font-family: 'Great Vibes', cursive;
-font-family: 'IBM Plex Serif', serif;
-font-family: 'Libre Baskerville', serif;**/
+/**@import url('https://fonts.googleapis.com/css2?family=Playball&display=swap&family=Great+Vibes&family=Cormorant+Garamond:ital,wght@1,600&family=Dancing+Script:wght@600&family=IBM+Plex+Serif:ital@1&family=Libre+Baskerville:ital@0;1&display=swap');
+font-family: 'Alice', serif;
+font-family: 'Aref Ruqaa', serif;
+font-family: 'Charm', cursive;
+font-family: 'Italianno', cursive;
+font-family: 'Lancelot', cursive;
+font-family: 'Lovers Quarrel', cursive;
+font-family: 'Playball', cursive;
 
 
-@import url('https://fonts.googleapis.com/css2?family=Italianno&family=Alegreya:ital@1&family=Cormorant+Garamond:ital,wght@1,500&family=Dancing+Script:wght@500&family=Great+Vibes&family=IBM+Plex+Serif&family=Libre+Baskerville&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Playball&family=Italianno&family=Alegreya:ital@1&family=Cormorant+Garamond:ital,wght@1,500&family=Dancing+Script:wght@500&family=Great+Vibes&family=IBM+Plex+Serif&family=Libre+Baskerville&display=swap');**/
+
+@import url('https://fonts.googleapis.com/css2?family=Alice&family=Aref+Ruqaa&family=Charm&family=Italianno&family=Lancelot&family=Lovers+Quarrel&family=Playball&display=swap');
 
 *{
  box-sizing: border-box;
@@ -90,14 +88,14 @@ body{
 
 .home{
     
-   background-image: url("Mypic-horizontal-flat\(2\).jpeg");
+   background-image: url("black-flowers.jpg");
     background-size: cover;
     background-repeat: no-repeat;
-    background-attachment: fixed;
     
     
     
-    height: 600px;
+    
+    height: 620px;
     margin-top: 0px;
     position: relative;
 
@@ -108,13 +106,19 @@ body{
 
 }
 .info{
-    font-size: 60px;
-    font-family: 'Dancing Script', cursive;
-    
+    font-size: 90px;
+   
+   
     color: black;
     font-family: 'IBM Plex Serif', serif;
+    font-family: 'Playball', cursive;
+    font-family: 'Charm', cursive;
+    
     font-weight: 500;
     padding: 0px;
+    position: absolute;
+    top: 10px;
+
     
    
 
@@ -149,6 +153,9 @@ img{
     font-size: 20px;
     font-family: 'IBM Plex Serif', serif;
     color: black;
+    font-family: 'Alice', serif;
+    
+
 
 }
 .skills{
@@ -176,7 +183,9 @@ img{
 
  .skillsheader{
      font-size: 80px;
-     font-family: 'Libre Baskerville', serif
+     font-family: 'Libre Baskerville', serif;
+     font-family: 'Italianno', cursive;
+     font-family: 'Lancelot', cursive;
      
     
  }
@@ -199,7 +208,9 @@ img{
 
 .project-container  .project-header{
     font-size: 70px;
-    font-family: 'Libre Baskerville', serif
+    font-family: 'Libre Baskerville', serif;
+    font-family: 'Italianno', cursive;
+    font-family: 'Lancelot', cursive;
     
 
 }
@@ -235,6 +246,7 @@ img{
      justify-content: center;
      align-items: center;
      width: 100%;
+     font-family: 'Alice', serif;
      
  }
 
@@ -259,8 +271,23 @@ h1 .footer-heading{
      
  }
 
+ .pro-img{
+    width: 350px;
+    height: 280px;
+    margin: 30px;
+    box-shadow:0px 5px 30px 10px rgba(0,0,0,0.4) 
+ }
 
+ .proj-para{
+     font-family: 'IBM Plex Serif', serif; 
+     font-weight: 400;
+     font-family: 'Alice', serif;
+ }
 
+ .proj-heading{
+     font-family: 'Libre Baskerville', serif;
+     font-family: 'Aref Ruqaa', serif;
+ }
 
 
 
@@ -321,8 +348,11 @@ h1 .footer-heading{
     }
 
     .info{
-        font-size: 25px;
+        font-size: 48px;
         color: black;
+        font-weight: 400;
+        position: absolute;
+        top: 250px;
     
     }
 
@@ -342,9 +372,15 @@ h1 .footer-heading{
 
 
     .my-info-para{
-        font-size: 15px;
+        font-size: 17px;
         font-family: 'IBM Plex Serif', serif;
         color: black;
+        font-family: 'Aref Ruqaa', serif;
+        font-family: 'Alice', serif;
+        
+        font-weight: 500;
+        
+        
     
     }
 
@@ -380,6 +416,12 @@ h1 .footer-heading{
 
         
     }
+    .pro-img{
+        width: 250px;
+        height: 180px;
+        margin: 10px;
+        box-shadow:0px 5px 30px 10px rgba(0,0,0,0.4) 
+     }
 
 
 }
