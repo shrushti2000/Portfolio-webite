@@ -93,6 +93,7 @@ body{
    background-image: url("Mypic-horizontal-flat\(2\).jpeg");
     background-size: cover;
     background-repeat: no-repeat;
+    background-attachment: fixed;
     
     
     
