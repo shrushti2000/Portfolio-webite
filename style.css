@@ -90,24 +90,27 @@ body{
 
 .home{
     
-   background-image: url("green_laptop.jpg");
+   background-image: url("Mypic-horizontal-flat\(2\).jpeg");
     background-size: cover;
     background-repeat: no-repeat;
-    background-color: gray;
     
-    height: 700px;
+    
+    
+    height: 600px;
     margin-top: 0px;
     position: relative;
+
     display: flex;
     justify-content: center ;
     align-items: center;
+    padding-top: 20px;
 
 }
 .info{
     font-size: 60px;
     font-family: 'Dancing Script', cursive;
     
-    color: #e33443;
+    color: black;
     font-family: 'IBM Plex Serif', serif;
     font-weight: 500;
     padding: 0px;
@@ -120,8 +123,8 @@ body{
 
 
 .about{
-   /** background-image: url("lightgray.jpg");
-    background-size: cover;**/
+    background-image: url("lightgray.jpg");
+    background-size: cover;
     height: 500px;
     display: flex;
     flex-direction: row;
@@ -239,19 +242,21 @@ img{
      flex-direction: row;
      justify-content:center;
      align-items: center;
+     
  }
 
- i{
-     color: white;
+ 
+h1 .footer-heading{
+    color: black;
+    font-size: 15px;
+ }
+ .socialmedia .fa .fa-instagram{
+     color: black;
      margin: 10px;
      font-size: 50px;
      cursor: pointer;
+     
  }
-h1 .footer-heading{
-    color: blanchedalmond;
-    font-size: 15px;
- }
- 
 
 
 
@@ -304,18 +309,26 @@ h1 .footer-heading{
 
 
     .home{
+        background-image: url("Mypic-mist.jpeg");
+
         
+        background-size: cover;
+        
+        height: 600px;
        
 
     }
 
     .info{
         font-size: 25px;
+        color: black;
     
     }
 
     .about{
-        
+    
+            background-image: url("lightgray.jpg");
+            
         display: flex;
         flex-direction: column;
     }
