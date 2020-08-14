@@ -23,8 +23,8 @@ html{
 }
 
 body{
-    margin: 0;
-    padding: 0;
+    margin: 0px;
+    padding: 0px;
 }
 
 .navbar{
@@ -89,26 +89,28 @@ body{
 }
 
 .home{
-    position: relative;
-    margin-top: 0;
-    height: 700px;
-    background-image: url("green_laptop.jpg");
-    background-attachment: fixed;
-    background-size: cover;
-    width: 100%;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
     
+   background-image: url("green_laptop.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-color: gray;
+    
+    height: 700px;
+    margin-top: 0px;
+    position: relative;
+    display: flex;
+    justify-content: center ;
+    align-items: center;
+
 }
 .info{
     font-size: 60px;
     font-family: 'Dancing Script', cursive;
     
-    color: black;
+    color: #e33443;
     font-family: 'IBM Plex Serif', serif;
     font-weight: 500;
+    padding: 0px;
     
    
 
@@ -118,8 +120,8 @@ body{
 
 
 .about{
-    background-image: url("lightgray.jpg");
-    background-size: cover;
+   /** background-image: url("lightgray.jpg");
+    background-size: cover;**/
     height: 500px;
     display: flex;
     flex-direction: row;
@@ -268,7 +270,7 @@ h1 .footer-heading{
 
 
 
-@media screen and (max-width:768px){
+@media screen and (max-width:360px){
     .navbar{
         flex-direction: column;
         align-items: flex-start;
@@ -302,17 +304,8 @@ h1 .footer-heading{
 
 
     .home{
-        position: relative;
-        margin-top: 0;
-        height: 400px;
-        background-image: url("green_laptop.jpg");
-        background-attachment: fixed;
-        background-size: cover;
-        width: 100%;
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
+        
+       
 
     }
 
@@ -343,12 +336,12 @@ h1 .footer-heading{
 
     .skills-ul{
         font-size: 20px;
-        color: white;
+        color:black;
     }
 
     .skillsheader{
         font-size: 60px;
-        color: white;
+        color: black;
     }
 
     .project-container{
