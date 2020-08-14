@@ -1,0 +1,378 @@
+/**@import url('https://fonts.googleapis.com/css2?family=Great+Vibes&family=Cormorant+Garamond:ital,wght@1,600&family=Dancing+Script:wght@600&family=IBM+Plex+Serif:ital@1&family=Libre+Baskerville:ital@0;1&display=swap');
+font-family: 'Cormorant Garamond', serif;
+font-family: 'Dancing Script', cursive;
+font-family: 'IBM Plex Serif', serif;
+font-family: 'Libre Baskerville', serif;
+*
+font-family: 'Alegreya', serif;
+font-family: 'Cormorant Garamond', serif;
+font-family: 'Dancing Script', cursive;
+font-family: 'Great Vibes', cursive;
+font-family: 'IBM Plex Serif', serif;
+font-family: 'Libre Baskerville', serif;**/
+
+
+@import url('https://fonts.googleapis.com/css2?family=Italianno&family=Alegreya:ital@1&family=Cormorant+Garamond:ital,wght@1,500&family=Dancing+Script:wght@500&family=Great+Vibes&family=IBM+Plex+Serif&family=Libre+Baskerville&display=swap');
+
+*{
+ box-sizing: border-box;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+body{
+    margin: 0;
+    padding: 0;
+}
+
+.navbar{
+    display: flex;
+    position: relative;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #333;
+    color:#333;
+}
+
+.brand-title{
+    font-size: 1.5rem;
+    margin: .5rem;
+}
+
+.navbar-links{
+    height: 100%;
+}
+
+ 
+
+
+.navbar-links ul{
+    display: flex;
+    margin: 0;
+    padding: 0;
+}
+
+.navbar-links li{
+    list-style: none;
+}
+
+.navbar-links li a{
+    display: block;
+    text-decoration: none;
+    color: white;
+    font-size: 30px;
+    padding: 1rem;
+}
+
+.navbar-links li a:hover{
+    color: gray;
+}
+
+.toggle-button{
+    position:absolute;
+    top: 0.75rem;
+    right: 1rem;
+    display: none;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 30px;
+    height: 21px;
+}
+
+.toggle-button .bar{
+    height: 3px;
+    width: 100%;
+    background-color:white;
+    border-radius: 10px;
+}
+
+.home{
+    position: relative;
+    margin-top: 0;
+    height: 700px;
+    background-image: url("green_laptop.jpg");
+    background-attachment: fixed;
+    background-size: cover;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+}
+.info{
+    font-size: 60px;
+    font-family: 'Dancing Script', cursive;
+    
+    color: black;
+    font-family: 'IBM Plex Serif', serif;
+    font-weight: 500;
+    
+   
+
+}
+
+
+
+
+.about{
+    background-image: url("lightgray.jpg");
+    background-size: cover;
+    height: 500px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    
+
+}
+
+img{
+   
+   width: 280px;
+   height: 280px;
+   margin: 30px;
+   box-shadow:0px 5px 30px 10px rgba(0,0,0,0.4) ;
+   
+
+}
+
+.my-info-para{
+    font-size: 20px;
+    font-family: 'IBM Plex Serif', serif;
+    color: black;
+
+}
+.skills{
+    background-image: url("graybg.jpg");
+    background-attachment: fixed;
+    background-size: cover;
+    height: 500px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.skills-ul{
+    display: flex;
+    flex-direction: column;
+    font-family: 'Libre Baskerville', serif;
+    color:black;
+    font-size: 30px;
+
+}
+
+ .skillsheader{
+     font-size: 80px;
+     font-family: 'Libre Baskerville', serif
+     
+    
+ }
+
+ .project-container{
+     display: flex;
+     flex-direction: column;
+     justify-content: center;
+     align-items: center;
+ }
+
+ .projects{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+
+}
+
+.project-container  .project-header{
+    font-size: 70px;
+    font-family: 'Libre Baskerville', serif
+    
+
+}
+
+
+ .projects{
+     display: flex;
+     flex-direction: row;
+     justify-content: center;
+     align-items: center;
+     margin: 10px;
+     
+ }
+
+ .proj{
+     display: flex;
+     flex-direction: column;
+     justify-content: center;
+     align-items: center;
+     
+     margin: 20px;
+     width: 25%;
+     box-shadow: 0px 5px 30px 10px rgba(0,0,0,0.5);
+ }
+ p{
+     padding: 20px;
+ }
+
+ .footer{
+     background-color:gray;
+     display: flex;
+     flex-direction: column;
+     justify-content: center;
+     align-items: center;
+     width: 100%;
+     
+ }
+
+ .socialmedia{
+     display: flex;
+     flex-direction: row;
+     justify-content:center;
+     align-items: center;
+ }
+
+ i{
+     color: white;
+     margin: 10px;
+     font-size: 50px;
+     cursor: pointer;
+ }
+h1 .footer-heading{
+    color: blanchedalmond;
+    font-size: 15px;
+ }
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (max-width:768px){
+    .navbar{
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .toggle-button{
+        display: flex;
+    }
+
+    .navbar-links{
+        display: none;
+        width: 100%;
+    }
+
+    .navbar-links ul{
+        width: 100%;
+        flex-direction: column;
+    }
+
+    .navbar-links ul li{
+        text-align: center;
+    }
+    .navbar-links ul li a{
+        padding: .5rem  1rem;
+    }
+
+    .navbar-links.active{
+        display: flex;
+    }
+
+
+
+    .home{
+        position: relative;
+        margin-top: 0;
+        height: 400px;
+        background-image: url("green_laptop.jpg");
+        background-attachment: fixed;
+        background-size: cover;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+
+    }
+
+    .info{
+        font-size: 25px;
+    
+    }
+
+    .about{
+        
+        display: flex;
+        flex-direction: column;
+    }
+
+    img{
+        width: 200px;
+   height: 200px;
+   margin: 10px ;
+    }
+
+
+    .my-info-para{
+        font-size: 15px;
+        font-family: 'IBM Plex Serif', serif;
+        color: black;
+    
+    }
+
+    .skills-ul{
+        font-size: 20px;
+        color: white;
+    }
+
+    .skillsheader{
+        font-size: 60px;
+        color: white;
+    }
+
+    .project-container{
+        display: flex;
+        flex-direction: column;
+        
+    }
+
+    .project-container .project-header{
+        font-size: 50px;
+    }
+
+    .projects{
+        display: flex;
+        flex-direction: column;
+    
+    }
+
+    .proj{
+        width: 100%;
+        margin: 10px;
+
+        
+    }
+
+
+}
