@@ -91,6 +91,7 @@ body{
    background-image: url("black-flowers.jpg");
     background-size: cover;
     background-repeat: no-repeat;
+    background-attachment: fixed;
     
     
     
@@ -200,6 +201,7 @@ img{
  .projects{
     display: flex;
     flex-direction: column;
+    flex-wrap: wrap;
     justify-content: center;
     align-items: center;
     
@@ -228,6 +230,7 @@ img{
  .proj{
      display: flex;
      flex-direction: column;
+     
      justify-content: center;
      align-items: center;
      
@@ -263,13 +266,27 @@ h1 .footer-heading{
     color: black;
     font-size: 15px;
  }
- .socialmedia .fa .fa-instagram{
+/** .socialmedia .fa .fa-instagram{
      color: black;
      margin: 10px;
      font-size: 50px;
      cursor: pointer;
      
- }
+ }**/
+
+ .fa {
+    padding: 20px;
+    font-size: 30px;
+    width: 50px;
+    text-align: center;
+    text-decoration: none;
+    margin: 5px 2px;
+    cursor: pointer;
+  }
+  
+  .fa:hover {
+      opacity: 0.7;
+  }
 
  .pro-img{
     width: 350px;
@@ -289,18 +306,46 @@ h1 .footer-heading{
      font-family: 'Aref Ruqaa', serif;
  }
 
+ i{
+    color: black;
+ }
+
+ a{
+     text-decoration:none ;
+     font-family: 'Aref Ruqaa', serif;
+     font-size: 20px;
+     color: brown;
+ 
+ }
+
+ a:hover{
+     color: coral;
+ }
+
+
+/** media query for ipad**/
+ @media screen and (max-width:1024px){
+    .proj{
+        width: 100%;
+        margin: 10px;
+
+        
+    }
+
+.pro-img{
+    width: 250px;
+    height: 140px;
+    margin: 10px;
+    box-shadow:0px 5px 30px 10px rgba(0,0,0,0.4) 
+ }
+}
 
 
 
 
 
 
-
-
-
-
-
-
+/** media query for mobile**/
 
 
 @media screen and (max-width:360px){
@@ -411,7 +456,7 @@ h1 .footer-heading{
     }
 
     .proj{
-        width: 100%;
+        width: 90%;
         margin: 10px;
 
         
@@ -425,3 +470,8 @@ h1 .footer-heading{
 
 
 }
+
+
+
+
+
